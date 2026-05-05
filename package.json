@@ -1,0 +1,13 @@
+{
+  "name": "aeo-diagnostic",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm install && npm run build",
+    "start": "node backend/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
